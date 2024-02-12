@@ -11,16 +11,14 @@ if [ "$version" = "latest" ]; then
     version=${version##*\"}
 fi
 
-echo "[Arizon Software] Updating PaperMC in '/paper/$version/paper-$version.jar'..."
 build=$(curl -sSfL "$url/versions/$version")
 build=${build%]*}
 build=${build##*[,[]}
 echo "[Arizon Software] Resolved latest version as $version (build #$build)"
 
-# Create version folder
-mkdir -p "/home/container/paper/$version/"
-
 # Download latest version
+echo "[Arizon Software] Updating PaperMC in '/paper/$version/paper-$version.jar'..."
+mkdir -p "/home/container/paper/$version/"
 jarPath="/home/container/paper/$version/paper-$version.jar"
 curl -sSfL "$url/versions/$version/builds/$build/downloads/paper-$version-$build.jar" -o "$jarPath"
 echo "[Arizon Software] Successfully updated PaperMC to build #$build (MC $version)"
