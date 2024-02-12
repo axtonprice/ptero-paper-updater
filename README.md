@@ -1,5 +1,5 @@
 # Pterodactyl automatic PaperMC updater egg
-A custom &amp; unique script for Pterodactyl, to automatically update PaperMC to any version on startup.
+A custom personal script for Pterodactyl, to automatically update PaperMC to any version on startup.
 
 *This is an unofficial fork from [github.com/parkervcp/eggs.](https://github.com/parkervcp/eggs/tree/master/game_eggs/minecraft/java/paper)*
 
