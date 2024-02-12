@@ -4,9 +4,17 @@
 # Determine version
 url='https://papermc.io/api/v2/projects/paper'
 version=$2
-if [ "$version" = "latest" ]; then version=$(curl -sSfL "$url"); version=${version%\"*} version=${version##*\"}; fi
+
+if [ "$version" = "latest" ]; then
+    version=$(curl -sSfL "$url")
+    version=${version%\"*}
+    version=${version##*\"}
+fi
+
 echo "[Arizon Software] Updating PaperMC in '/paper/$version/paper-$version.jar'..."
-build=$(curl -sSfL "$url/versions/$version"); build=${build%]*} build=${build##*[,[]}
+build=$(curl -sSfL "$url/versions/$version")
+build=${build%]*}
+build=${build##*[,[]}
 echo "[Arizon Software] Resolved latest version as $version (build #$build)"
 
 # Create version folder
