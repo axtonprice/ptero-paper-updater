@@ -4,8 +4,7 @@
 #Determine version
 url='https://papermc.io/api/v2/projects/paper'
 version=$2
-if [ "$version" = "latest" ]; 
-then 
+if [ "$version" = "latest" ]; then 
   version=$(curl -sSfL "$url"); 
   version=${version%\"*} 
   version=${version##*\"}; 
