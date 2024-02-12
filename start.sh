@@ -1,3 +1,4 @@
+#!/bin/sh
 #$1 = {SERVER_MEMORY}
 #$2 = {MINECRAFT_VERSION}
 
