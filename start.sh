@@ -17,4 +17,4 @@ echo "[Arizon Software] Successfully updated PaperMC to build #$build (MC $versi
 
 # Start server
 echo "[Arizon Software] Starting server..."
-java -Xms256M -Xmx"$1"M -jar "$jarPath" -Dcom.mojang.eula.agree=true
+java -Xms256M -Xmx"$1"M -jar "$jarPath" -com.mojang.eula.agree=true
