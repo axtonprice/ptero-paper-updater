@@ -1,7 +1,8 @@
-# Pterodactyl automatic PaperMC updater egg
-A custom personal script for Pterodactyl, to automatically update PaperMC to any version on startup.
+# Pterodactyl Auto PaperMC
+A custom personal script for the Pterodactyl panel, to automatically pull the latest PaperMC version on startup. 
 
-*This is an unofficial fork from [github.com/parkervcp/eggs.](https://github.com/parkervcp/eggs/tree/master/game_eggs/minecraft/java/paper)*
+### Disclaimer
+This is a personal-use script and was developed for educational purposes, please don't use this in production environments. 
 
 ### start.sh
 Determines the latest build in specified version, downloads corresponding server jar file, and starts server. Server startup flags remain easily modifiable.
