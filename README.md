@@ -11,3 +11,8 @@ Determines the latest build in the specified minecraft version, downloads corres
 ```
 /home/container/start.sh {{SERVER_MEMORY}} {{MINECRAFT_VERSION}}
 ```
+
+### Screenshots
+![image](https://github.com/axtonprice/ptero-paper-updater/assets/37771600/a711dc1b-e48d-44dd-935d-293514f5c883)
+![image](https://github.com/axtonprice/ptero-paper-updater/assets/37771600/2e1d18f0-70ad-4168-a92e-bb6cd6d64f38)
+![image](https://github.com/axtonprice/ptero-paper-updater/assets/37771600/8ce1d88e-6169-4534-bbb4-cd179eb57d0e)
