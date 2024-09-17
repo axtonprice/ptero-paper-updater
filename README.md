@@ -1,4 +1,4 @@
-# Pterodactyl Auto PaperMC
+# Auto PaperMC
 A custom personal script for the Pterodactyl panel, to automatically pull the latest PaperMC build for the specified Minecraft version on startup. 
 
 ### Disclaimer
