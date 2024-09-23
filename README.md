@@ -60,4 +60,4 @@ Please note that I am not responsible for any unintended outcomes resulting from
 
 ## License
 
-This script is provided under the [MIT License](https://github.com/axtonprice/papermc-updater/LICENSE). Feel free to modify and distribute it as needed.
+This script is provided under the [MIT License](https://github.com/axtonprice/papermc-updater/blob/main/LICENSE). Feel free to modify and distribute it as needed.
