@@ -40,6 +40,9 @@ To use the script:
 1. Set the container memory as the first argument (`$1`), and the Minecraft version as the second argument (`$2`).
 2. The script will automatically adjust the memory allocation and start the server with optimized settings.
 
+> [!TIP  
+> If you are receiving permission errors when the server attempts to read `start.sh`, please note that you may have to update the script's file permissions manually.
+
 #### Example
 
 ```bash
